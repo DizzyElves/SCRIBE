@@ -11,7 +11,7 @@ export const botConfig = {
   // - "invisible" = appears offline
   presence: {
     // Current online state shown on Discord.
-    status: "dnd",
+    status: "idle",
 
     // Activity lines shown under the bot name.
     // `type` number mapping from Discord:
@@ -23,8 +23,8 @@ export const botConfig = {
     // 5 = Competing
     activities: [
       {
-        name: "Custom Status", // required by Discord API, not shown in the client
-        state: "you.",     // this is what people actually see
+        name: "Trabajando.", // required by Discord API, not shown in the client
+        state: "Organizando archivos.",     // this is what people actually see
         type: 3,               // Custom
       },
     ],
@@ -100,7 +100,7 @@ export const botConfig = {
       success: "#57F287",
       error: "#ED4245",
       warning: "#FEE75C",
-      info: "#3498DB",
+      info: "#000001",
 
       // Neutral utility colors.
       light: "#FFFFFF",
@@ -113,7 +113,7 @@ export const botConfig = {
       yellow: "#FEE75C",
       fuchsia: "#EB459E",
       red: "#ED4245",
-      black: "#000000",
+      black: "#000001",
 
       // Feature-specific colors.
       giveaway: {
